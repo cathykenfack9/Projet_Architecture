@@ -152,6 +152,35 @@ Dans lexemple ci dessus, nous avons defini 5 classificateurs faibles et  la majo
 \end{figure}
 \end{center}
 
+\subsection{Fonctionnement du boosting}
+\quad Le principe de base de algorithmes de boosting est de générer plusieurs apprenants faibles et de combiner leurs prédictions pour former un apprenant fort. Ces apprenants faibles sont générés en appliquant des algorithmes d'apprentissage automatique de base à différentes distributions de l'ensemble de données. Ces algorithmes génèrent des règles faibles à chaque itération. Après quelques itérations, les apprenants faibles sont combinés en apprenants forts qui prédisent des résultats plus précis.
+
+
+
+\textbf{étape 1}
+
+ \quad L'algorithme de base lit les données et attribue des poids égaux à chaque observation d'échantillon de données. Puis algorithme de base faire des predictions pour chacun de ces échantillons.
+ 
+ \textbf{étape 2}
+ \quad L’algorithme identifie les prédictions incorrectes faites par les apprenants de base. À l'itération suivante, ces prédictions erronées sont attribuées à l'apprenant de base suivant avec des poids plus élevés pour ces prédictions erronées.
+
+ 
+ \textbf{étape 3}
+\quad on répète l'étape 2 jusqu'à ce que l'algorithme puisse apprendre correctement.
+Par conséquent, l'objectif principal du boosting est de se concentrer davantage sur les prédictions erronées.
+
+\quad Maintenant que nous connaissons comment fonctionne l’algorithme de boosting, intéressons-nous maintenant aux différents types de algorithme de boosting. Mais avant nous présenterons des Forces  et Faiblesses de celui ci.
+
+
+\begin{center}
+\includegraphics[scale=1]{fonctionnement boosting.png}
+\begin{figure}[h]
+\caption{: fonctionnement de Algorithme Boosting}
+\end{figure}
+\end{center}
+
+
+
 
 
 
@@ -191,7 +220,7 @@ Dans lexemple ci dessus, nous avons defini 5 classificateurs faibles et  la majo
 \newpage
 
 \begin{center}
-\bibliography{bibliographie}
+\bibliography{bibio}
 \bibliographystyle{unsrtnat}
 \end{center}
 
