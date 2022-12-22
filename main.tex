@@ -191,16 +191,53 @@ Par conséquent, l'objectif principal du boosting est de se concentrer davantage
 \quad Les algorithmes de boosting donnent la priorité aux fonctionnalités qui augmentent la précision des prédictions pendant l'entraînement. Ils permettent de réduire les attributs de données et de traiter efficacement de grands ensembles de données. Les algorithmes de boost donnent la priorité aux fonctionnalités qui augmentent la précision des prédictions pendant l'entraînement. Ils permettent de réduire les attributs de données et de traiter efficacement de grands ensembles de données.
 
 \quad Malgré les forces de cet algorithme, elle présente néanmoins des faiblesses. 
+
+
 \subsubsection{Les faiblesses de l'algorithme de boosting}
 
 \textbf{Vulnérabilité aux données aberrantes }
+
 \quad Les modèles de boost sont sujets aux valeurs aberrantes ou aux valeurs de données qui diffèrent du reste de l'ensemble de données. Comme chaque modèle tente de corriger les bogues du modèle précédent, les valeurs aberrantes peuvent grandement fausser les résultats.
 
+
 \textbf{Implémentation en temps réel}
+
 \quad Le boosting peut être difficile à utiliser pour les implémentations en temps réel car l'algorithme est plus complexe que les autres processus. Les techniques de boosting sont très adaptables. Cela vous permet d'utiliser différents paramètres de modèle qui affectent directement les performances du modèle.
 
+\subsection{ Les différents types d'algorithme de boosting}
 
 
+\quad Il existe trois façons principales d’effectuer le boosting.
+
+\textbf{Boosting adaptatif }
+
+\quad Adaptative Boosting (AdaBoost) a été l'un des premiers modèles de boosting développés. Il essaie de s'adapter et de s'autocorriger à chaque itération du processus de boosting.
+
+
+\quad AdaBoost donne initialement à chaque ensemble de données un poids égal. Ensuite, ajustez automatiquement les poids des points de données après chaque arbre de décision. Pesez les articles mal classés et corrigez-les pour le tour suivant. Ce processus est répété jusqu'à ce que le résidu, la différence entre la valeur réelle et la valeur prédite, tombe en dessous du seuil acceptable.
+
+\quad AdaBoost peut être utilisé avec de nombreux prédicteurs, mais il n'est généralement pas aussi sensible que d'autres algorithmes de boosting. Cette approche ne fonctionne pas bien lorsqu'il existe une corrélation entre les caractéristiques ou lorsque les données sont très dimensionnelles. 
+
+\quad Dans l'ensemble, AdaBoost est un type de boost approprié pour les problèmes de classification. 
+
+\textbf{Le boosting de gradient}
+
+\quad Gradient Boosting(GB), également connu sous le nom d’amplificateur de gradient, est similaire à AdaBoost en ce sens qu'il s'agit également d'une technique d'entraînement séquentielle.
+
+\quad Contrairement à AdaBoost  GB ne donne pas de poids aux éléments mal classés,  le logiciel GB optimise la fonction de perte en générant des apprenants de base de manière séquentielle, de sorte que l'apprenant de base actuel est toujours plus efficace que le précédent. Cette méthode essaie d'obtenir des résultats précis la première fois au lieu de corriger les erreurs en cours de route comme le fait AdaBoost. Cela permet au logiciel GB de produire des résultats plus précis.
+
+\quad Le boosting de gradient est utile pour les problèmes de classification et de régression.
+
+
+
+
+\textbf{Le boosting de gradient extreme}
+
+\quad Extreme Gradient Boosting (XGBoost) améliore le boosting  de gradient de plusieurs manières en termes de vitesse de calcul . XGBoost utilise plusieurs cœurs du CPU, permettant un apprentissage parallèle pendant l’entrainement. Il s'agit d'un algorithme de boosting qui peut gérer de grands ensembles de données, ce qui le rend attractif pour les applications de Big Data. 
+
+\quad Les principales fonctionnalités de XGBoost sont la parallélisation, le calcul distribuée, l'optimisation du cache et le traitement hors cœur.
+
+\quad Pour la suite nous présenterons comme exemple de technique de boosting l'algorithme Adaboost.
 
 
 
