@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml><bibliographys>
+	   <bibliography>
+
+	<contributors>
+		<authors>
+			<author>
+				Saini, Anshul
+			</author>
+		</authors>
+	</contributors>
+	<titles>
+		<title>
+			AdaBoost Algorithm - A Complete Guide for Beginners
+	    </title>
+	<secondary-title>
+		Analytics Vidhya
+	</secondary-title>
+   </titles>
+<periodical>
+	<full-title>
+		Analytics Vidhya
+	</full-title>
+</periodical>
+<dates>
+	<year>
+		2021
+	</year>
+	<pub-dates>
+		<date>
+			2021-09-15T11:00:28+00:00
+		</date>
+	</pub-dates>
+</dates>
+<abstract>
+	AdaBoost Algorithm is also known as Adaptive Boosting is an Ensemble modelling technique used in Machine Learning to find the best model.
+</abstract>
+<language>en
+</language>
+<urls>
+	<web-urls>
+		<url>
+			https://www.analyticsvidhya.com/blog/2021/09/adaboost-algorithm-a-complete-guide-for-beginners/
+		</url>
+	</web-urls>
+	<text-urls>
+		<url>
+			internal-pdf://444/adaboost-algorithm-a-complete-guide-for-beginners.html
+		</url>
+	</text-urls>
+</urls>
+
+</bibliography>
+
+
+		<bibliography>
+			
+			<contributors>
+				<authors>
+					<author>Kubat, Miroslav</author>
+				</authors>
+			</contributors>
+			<titles>
+				<title>An Introduction to Machine Learning</title>
+			</titles>
+			<dates>
+				<year>2017</year>
+				<pub-dates>
+					<date>2017</date>
+				</pub-dates>
+			</dates>
+			<pub-location>
+				Cham
+			</pub-location>
+			<publisher>
+				Springer International Publishing
+			</publisher>
+			<isbn>
+				978-3-319-63912-3 978-3-319-63913-0
+			</isbn>
+			<language>
+				english
+			</language>
+			<urls>
+				<web-urls>
+					<url>
+						http://link.springer.com/10.1007/978-3-319-63913-0
+					</url>
+				</web-urls>
+				<pdf-urls>
+					<url>
+						internal-pdf://257/Kubat - 2017 - An Introduction to Machine Learning.pdf
+					</url>
+				</pdf-urls>
+			</urls>
+			<access-date>
+				2022-11-19 11:34:35
+			</access-date>
+		</bibliography>
+
+		<bibliography>
+			<ref-type name="Book">
+				6
+			</ref-type>
+			
+			<contributors>
+				<authors>
+					<author>
+						Schapire, Robert E.
+					</author>
+					<author>
+						Freund, Yoav
+					</author>
+				</authors>
+			</contributors>
+			<titles>
+				<title>
+					Boosting: foundations and algorithms
+				</title>
+				<secondary-title>
+					Adaptive computation and machine learning
+				</secondary-title>
+				<short-title>
+					Boosting
+				</short-title>
+			</titles>
+			<dates>
+				<year>
+					2012
+				</year>
+				<pub-dates>
+					<date>
+						2012
+					</date>
+				</pub-dates>
+			</dates>
+			<pub-location>
+				Cambridge (Mass.)
+			</pub-location>
+			<publisher>
+				MIT press
+			</publisher>
+			<isbn>
+				978-0-262-01718-3
+			</isbn>
+			<call-num>
+				006.31
+			</call-num>
+			<remote-database-name>
+				BnF ISBN
+			</remote-database-name>
+			<language>
+				english
+			</language>
+		</bibliography>
+		<bibliography>
+
+			<ref-type name="Book Section">
+				5
+			</ref-type>
+			<contributors>
+				<authors>
+					<author>
+						El Naqa, Issam
+					</author>
+					<author>
+						Murphy, Martin J.
+					</author>
+				</authors>
+				<secondary-authors>
+					<author>
+						El Naqa, Issam
+					</author>
+					<author>
+						Li, Ruijiang
+					</author>
+					<author>
+						Murphy, Martin J.
+					</author>
+				</secondary-authors>
+			</contributors>
+			<titles>
+				<title>
+					What Is Machine Learning?
+				</title>
+				<secondary-title>
+					Machine Learning in Radiation Oncology: Theory and Applications
+				</secondary-title>
+			</titles>
+			<periodical>
+				<full-title>
+					Machine Learning in Radiation Oncology: Theory and Applications
+				</full-title>
+			</periodical>
+			<pages>
+				3-11
+			</pages>
+			<keywords>
+				<keyword>
+					Apprentissage automatique
+				</keyword>
+				<keyword>
+					Cancer
+				</keyword>
+				<keyword>
+					Interaction homme-machine
+				</keyword>
+				<keyword>
+					Radiothérapie
+				</keyword>
+			</keywords>
+			<dates>
+				<year>
+					2015
+				</year>
+				<pub-dates>
+					<date>
+						2015
+					</date>
+				</pub-dates>
+			</dates>
+			<pub-location>
+				Cham
+			</pub-location>
+			<publisher>
+				Springer International Publishing
+			</publisher>
+			<isbn>
+				978-3-319-18305-3
+			</isbn>
+			<remote-database-name>
+				Springer Link
+			</remote-database-name>
+			<language>
+				english
+			</language>
+			<urls>
+				<web-urls>
+					<url>
+						https://doi.org/10.1007/978-3-319-18305-3_1
+					</url>
+				</web-urls>
+				<pdf-urls>
+					<url>
+						internal-pdf://264/El Naqa et Murphy - 2015 - What Is Machine Learning.pdf
+					</url>
+				</pdf-urls>
+			</urls>
+			<access-date>
+				2022-11-19 14:22:21
+			</access-date>
+		</bibliography>
+		<bibliography>
+			<ref-type name="Journal Article">
+				17</ref-type>
+				<contributors>
+					<authors>
+						<author>
+							Mousa, Saleh R.
+						</author>
+						<author>
+							Bakhit, Peter R.
+						</author>
+						<author>
+							Ishak, Sherif
+						</author>
+					</authors>
+				</contributors>
+				<titles>
+					<title>
+						An extreme gradient boosting method for identifying the factors contributing to crash/near-crash events: a naturalistic driving study
+					</title>
+					<secondary-title>
+						Canadian Journal of Civil Engineering
+					</secondary-title>
+					<short-title>
+						An extreme gradient boosting method for identifying the factors contributing to crash/near-crash events
+					</short-title>
+				</titles>
+				<periodical>
+					<full-title>
+						Canadian Journal of Civil Engineering
+					</full-title>
+					<abbr-1>
+						Can. J. Civ. Eng.
+					</abbr-1>
+				</periodical>
+				<pages>
+					712-721
+				</pages>
+				<volume>
+					46
+				</volume>
+				<number>
+					8
+				</number>
+				<issue>
+					8
+				</issue>
+				<dates>
+					<year>
+						2019
+					</year>
+					<pub-dates>
+						<date>
+							08/2019
+						</date>
+					</pub-dates>
+				</dates>
+				<isbn>
+					0315-1468, 1208-6029
+				</isbn>
+				<language>
+					english
+				</language>
+				<urls>
+					<web-urls>
+						<url>
+							http://www.nrcresearchpress.com/doi/10.1139/cjce-2018-0117
+						</url>
+					</web-urls>
+				</urls>
+				<access-date>
+					2022-11-19 11:15:35
+				</access-date>
+			</bibliography>
+			<bibliogaphy>
+			<contributors>
+				<secondary-authors>
+					<author>
+						Hutchison, David
+					</author>
+					<author>
+						Kanade, Takeo
+					</author>
+					<author>
+						Kittler, Josef
+					</author>
+					<author>
+						Kleinberg, Jon M.
+					</author>
+					<author>
+						Mattern, Friedemann
+					</author>
+					<author>
+						Mitchell, John C.
+					</author>
+					<author>
+						Naor, Moni
+					</author>
+					<author>
+						Nierstrasz, Oscar
+					</author>
+					<author>
+						Pandu Rangan, C.
+					</author>
+					<author>
+						Steffen, Bernhard
+					</author>
+					<author>
+						Sudan, Madhu
+					</author>
+					<author>
+						Terzopoulos, Demetri
+					</author>
+					<author>
+						Tygar, Dough
+					</author>
+					<author>
+						Vardi, Moshe Y.
+					</author>
+					<author>
+						Weikum, Gerhard
+					</author>
+				</secondary-authors>
+				<tertiary-authors>
+					<author>
+						Ben-David, Shoham
+					</author>
+					<author>
+						Case, John
+					</author>
+					<author>
+						Maruoka, Akira
+					</author>
+				</tertiary-authors>
+			</contributors>
+			<titles>
+				<title>
+					Algorithmic Learning Theory: 15th International Conference, ALT 2004, Padova, Italy, October 2-5, 2004. Proceedings
+				</title>
+					<secondary-title>
+						Lecture Notes in Computer Science
+					</secondary-title>
+					<short-title>
+						Algorithmic Learning Theory
+					</short-title>
+				</titles>
+				<volume>
+					3244
+				</volume>
+				<dates>
+					<year>
+						2004
+					</year>
+					<pub-dates>
+						<date>
+							2004
+						</date>
+					</pub-dates>
+				</dates>
+				<pub-location>
+					Berlin, Heidelberg
+				</pub-location>
+				<publisher>
+					Springer Berlin Heidelberg
+				</publisher>
+				<isbn>
+					978-3-540-23356-5 978-3-540-30215-5
+				</isbn>
+				<remote-database-name>
+					DOI.org (Crossref)
+				</remote-database-name>
+				<language>en</language>
+				<urls>
+					<web-urls>
+						<url>
+							http://link.springer.com/10.1007/b100989
+						</url>
+					</web-urls>
+					<pdf-urls>
+						<url>
+							internal-pdf://259/Ben-David et al. - 2004 - Algorithmic Learning Theory 15th International Co.pdf
+						</url>
+					</pdf-urls>
+				</urls>
+				<access-date>
+					2022-11-19 11:34:35
+				</access-date>
+			</bibliogaphy>
+</bibliographys>
+</xml>
+
