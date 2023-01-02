@@ -1,0 +1,202 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="xml">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="bibliographys">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="bibliography" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="ref-type" minOccurs="0">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:float">
+                            <xs:attribute type="xs:string" name="name" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="contributors">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="authors">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="author" maxOccurs="unbounded" minOccurs="0"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="secondary-authors" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="author" maxOccurs="unbounded" minOccurs="0"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="titles">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="title"/>
+                          <xs:element type="xs:string" name="secondary-title" minOccurs="0"/>
+                          <xs:element type="xs:string" name="short-title" minOccurs="0"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="periodical" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="full-title"/>
+                          <xs:element type="xs:string" name="abbr-1" minOccurs="0"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="pages" minOccurs="0"/>
+                    <xs:element name="keywords" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="keyword" maxOccurs="unbounded" minOccurs="0"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:float" name="volume" minOccurs="0"/>
+                    <xs:element type="xs:float" name="number" minOccurs="0"/>
+                    <xs:element type="xs:float" name="issue" minOccurs="0"/>
+                    <xs:element name="dates">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:float" name="year"/>
+                          <xs:element name="pub-dates">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="date"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="abstract" minOccurs="0"/>
+                    <xs:element type="xs:string" name="pub-location" minOccurs="0"/>
+                    <xs:element type="xs:string" name="publisher" minOccurs="0"/>
+                    <xs:element type="xs:string" name="isbn" minOccurs="0"/>
+                    <xs:element type="xs:float" name="call-num" minOccurs="0"/>
+                    <xs:element type="xs:string" name="remote-database-name" minOccurs="0"/>
+                    <xs:element type="xs:string" name="language"/>
+                    <xs:element name="urls" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="web-urls">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="url"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="text-urls" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="url"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="pdf-urls" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="url"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="access-date" minOccurs="0"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="bibliogaphy">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="contributors">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="secondary-authors">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="author" maxOccurs="unbounded" minOccurs="0"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="tertiary-authors">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="author" maxOccurs="unbounded" minOccurs="0"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="titles">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="title"/>
+                          <xs:element type="xs:string" name="secondary-title"/>
+                          <xs:element type="xs:string" name="short-title"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:float" name="volume"/>
+                    <xs:element name="dates">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:float" name="year"/>
+                          <xs:element name="pub-dates">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:float" name="date"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="pub-location"/>
+                    <xs:element type="xs:string" name="publisher"/>
+                    <xs:element type="xs:string" name="isbn"/>
+                    <xs:element type="xs:string" name="remote-database-name"/>
+                    <xs:element type="xs:string" name="language"/>
+                    <xs:element name="urls">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="web-urls">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="url"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="pdf-urls">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="url"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="access-date"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
